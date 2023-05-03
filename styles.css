@@ -6,3 +6,56 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+/* 搜索框样式 */
+.modal-close-button{
+    display:none;
+}
+.hidden-search-button{
+    display:none;
+}
+
+/* 标签管理器对话框样式 */
+.tag-list-container{
+    background-color: var(--color-base-20);
+    border-radius: 10px;
+    padding:10px;
+    height: 300px;
+    overflow:scroll;
+}
+.new-tag{
+    padding-top:20px;
+    padding-bottom:20px;
+    display:flex;
+    justify-content: space-between;
+}
+.tag-input{
+    margin-right:10px;
+    width:82%;
+    flex:0 1 auto;
+}
+.tag-footer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.tag-button-container{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+.progress-container{
+    background-color:var(--color-base-50);
+    border-radius: 3px;
+    width: 90%;
+    height:6px;
+    margin-right:10px;
+}
+.progress{
+    background-color: var(--interactive-accent);
+    border-radius: 3px;
+    height:6px;
+    margin-right:10px;
+    transition:1s;
+}
